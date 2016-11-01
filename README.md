@@ -24,7 +24,7 @@ _Note_: In a CSS manifest file you must open the CSS comment block with `/*` and
 
 ### `require` directives
 
-When we require a CSS asset in our manifest, if it is located in one of the configured folders, it will be included in our application. One thing to remember is when you require something the path you provide must be the asset path. For example, if you have the file `app/assets/stylesheets/blogs/main.css` you will need to require it like this, `*= require 'blogs/main'`.
+When we require a CSS asset in our manifest, if it is located in one of the configured folders, it will be included in our application. It is important to remember that when you require a CSS asset, the path you provide must be the asset path. For example, if you have the file `app/assets/stylesheets/blogs/main.css` you will need to require it like this, `*= require 'blogs/main'`.
 
 ### Loading a Manifest File in your layout
 
@@ -79,3 +79,5 @@ Notice the lack of whitespace? That's the minification we talked about earlier. 
 - http://guides.rubyonrails.org/asset_pipeline.html
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/css-manifests' title='CSS Manifests'>CSS Manifests</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/css-manifests'>CSS Manifests</a> on Learn.co and start learning to code for free.</p>
